@@ -22,3 +22,10 @@ p {
     color: chartreuse;
     text-align: center;
 }
+
+@media only screen and (min-width: 600px) {
+    h1,
+    p {
+        font-size: 1rem;
+    }
+}
